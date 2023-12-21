@@ -5,7 +5,11 @@
     "email": "rayhan.dev.bd@gmail.com",
     "url": "https://rayhan.dev"
   },
-  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingRayhan/rgb-from-hex"
+  },
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
