@@ -1,4 +1,4 @@
-## Hex to RGB
+## rgb-from-hex
 
 A simple Javascript/TypeScript package that converts hexadecimal color codes to RGB format.
 
@@ -7,30 +7,30 @@ A simple Javascript/TypeScript package that converts hexadecimal color codes to 
 You can install the package using npm:
 
 ```bash
-npm install hextorgb
+npm install rgb-from-hex
 ```
 
 ### Usage
 
 ```ts
-import hexToRgb from 'hextorgb';
+import rgbFromHex from 'rgb-from-hex';
 
 // Convert hex to RGB object
-const rgbObject = hexToRgb('#3498db');
+const rgbObject = rgbFromHex('#3498db');
 console.log(rgbObject); // { red: 52, green: 152, blue: 219 }
 
 // Convert hex to RGB CSS string
-const rgbCss = hexToRgb('#3498db', { outputType: 'rgb-css' });
+const rgbCss = rgbFromHex('#3498db', { outputType: 'rgb-css' });
 console.log(rgbCss); // "rgb(52,152,219)"
 
 // Convert hex to RGB array
-const rgbArray = hexToRgb('#3498db', { outputType: 'array' });
+const rgbArray = rgbFromHex('#3498db', { outputType: 'array' });
 console.log(rgbArray); // [52, 152, 219]
 ```
 
 ## API
 
-### hexToRgb(hex, options)
+### rgbFromHex(hex, options)
 
 Converts a hexadecimal color code to RGB format.
 
