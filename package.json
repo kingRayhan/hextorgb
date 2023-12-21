@@ -1,5 +1,5 @@
 {
-  "name": "hextorgb",
+  "name": "rgb-from-hex",
   "author": {
     "name": "kingrayhan",
     "email": "rayhan.dev.bd@gmail.com",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "module": "dist/hextorgb.esm.js",
+  "module": "dist/rgb-from-hex.esm.js",
   "files": [
     "dist",
     "src"
