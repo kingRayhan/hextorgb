@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm ci
+      - run: npm install && npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: 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
